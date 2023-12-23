@@ -4,7 +4,7 @@ import random
 import math
 from tkinter import *
 import mysql.connector
-'''
+
 turtle.bgcolor('light blue')
 turtle.color('brown')
 style=('Times new roman','35','bold')
@@ -41,9 +41,9 @@ tr.penup()
 tr.goto(55, -75)
 tr.pendown()
 tr.circle(45)
-'''
+
 # MYSQL
-con = mysql.connector.connect(host='localhost', user='root', password='Ha@201105', database='sports')
+con = mysql.connector.connect(host='localhost', user='root', password='YOUR PASSWORD', database='sports')
 cur = con.cursor()
 print('*****WELCOME TO SPORTZEVENTO*****')
 print()
